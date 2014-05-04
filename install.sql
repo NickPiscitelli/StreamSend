@@ -8,5 +8,6 @@ CREATE TABLE stream_send.users (
 	password varchar(65) NOT NULL default '',
 	first_name varchar(255) NOT NULL default '',
 	last_name varchar(255) NOT NULL default '',
-	salt varchar(34)
+	salt varchar(34),
+	INDEX email (email)
 ) ENGINE=InnoDB;
