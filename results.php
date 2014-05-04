@@ -4,7 +4,6 @@ session_start();
 
 // Check auth status
 if(!$_SESSION['logged_in']){
-    header("HTTP/1.1 401 Unauthorized");
     header('Location: login.php');
     exit;
 }
