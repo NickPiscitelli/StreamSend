@@ -1,0 +1,74 @@
+.contain {
+	width: 100%;
+	height: 100%;
+}
+.main {
+	height: 100%;
+	background-color: #009DDC;
+}
+.rightBack, .leftBack{
+	height: 100%;
+	overflow-y: auto;
+	background-color: #3C4C5B;
+}
+.leftBack{
+	background-color: #009DDC;
+}
+.pageForm {
+	color: #fff;
+	width: 100%;
+}
+.loginCell {
+	width: 384px;
+	height: 100%;
+	overflow-y: auto;
+	vertical-align: top;
+}
+.registerCell{
+	width: 576px;
+	height: 100%;
+	overflow-y: auto;
+	padding-left: 5%;
+	vertical-align: top;
+	background-color: #3C4C5B;
+}
+.pageForm .header{
+	font-size: 2em;
+}
+.pageForm .input {
+	margin: 0 0 1.6em 0;
+}
+.pageForm input {
+	border: 0;
+	padding: .6em 1em;
+	width: 90%;
+	font-size: 1.2em;
+}
+.pageForm .errorMessage {
+	margin-bottom: .2em;
+	color: #f00;
+	display: none;
+	position: absolute;
+}
+.row .input {
+	width: 50%;
+	float: left;
+}
+.pageForm button {
+	border: 0;
+	color: #fff;
+	font-size: 1.1em;
+	padding: .5em 1em;
+	cursor: pointer;
+}
+.login button {
+	background-color: #3C4C5B;
+}
+.register button {
+	background-color: #009DDC;
+}
+.errorBox {
+	color: #f00;
+	font-weight: bold;
+	font-size: 1.1em;
+}
