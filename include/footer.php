@@ -1,4 +1,3 @@
-    </body>
     <script src="js/jquery-2.1.1.min.js"></script>
     <?php
     if ($page == 'results'){
@@ -8,4 +7,5 @@
     	echo '<script src="js/'.$file.'.js" type="text/javascript"></script>';
     }
     ?>
+    </body>
 </html>
