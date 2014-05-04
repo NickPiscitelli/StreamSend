@@ -5,7 +5,7 @@
     	echo '<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>';
     }
     foreach ($js_files as $file){
-    	echo '<script src="js/'.$file.'.js?h=d" type="text/javascript"></script>';
+    	echo '<script src="js/'.$file.'.js" type="text/javascript"></script>';
     }
     ?>
 </html>
