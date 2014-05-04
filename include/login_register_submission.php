@@ -43,6 +43,9 @@ if ($_POST['register']){
 
 			// Create Salted Hash
 			$salt = uniqid(mt_rand(), true);
+			if(strlen($salt) > 34){
+				$salt = substr($salt,0,34);
+			}
 			$password = hash('sha256',$_POST['password'].$salt);
 			
 			// Quote other data to insert
